@@ -17,6 +17,18 @@ try:
     os.mkdir("logs")
 except:
     pass
+try:
+    os.mkdir("data/dataset")
+except:
+    pass
+try:
+    os.mkdir("data/dataset/labels")
+except:
+    pass
+try:
+    os.mkdir("data/dataset/images")
+except:
+    pass
 
 # Logger
 logging.basicConfig(level=logging.DEBUG)
