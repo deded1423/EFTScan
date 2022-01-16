@@ -1,0 +1,6 @@
+/logs/*
+/.idea/*
+/venv/*
+/logs**
+/.idea**
+/venv**
